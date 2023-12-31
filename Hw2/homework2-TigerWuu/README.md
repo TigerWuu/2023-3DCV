@@ -84,7 +84,7 @@ The camera poses of 130 validation images and NTU gate 3D points cloud can be dr
     
     The result is shown below (Blue: estimated, Magenta: ground truth)
     
-    ![Untitled](Hw2%20Camera%20Relocalization%207b7b806eb8434621a4b2eccc5c7c6a64/Untitled%1.png)
+    ![Untitled](Hw2%20Camera%20Relocalization%207b7b806eb8434621a4b2eccc5c7c6a64/Untitled1.png)
     
     Because the order of the **“IMAGE_ID”** does not match the time sequence of the camera motion, I use `natsort` to obtain the correct order of frames first.
     
@@ -92,7 +92,7 @@ The camera poses of 130 validation images and NTU gate 3D points cloud can be dr
     
     The result is shown below
     
-    ![Untitled](Hw2%20Camera%20Relocalization%207b7b806eb8434621a4b2eccc5c7c6a64/Untitled%2.png)
+    ![Untitled](Hw2%20Camera%20Relocalization%207b7b806eb8434621a4b2eccc5c7c6a64/Untitled2.png)
     
     Here each camera pose can be seen as a quadrangular pyramid. 
     
@@ -131,14 +131,14 @@ The camera poses of 130 validation images and NTU gate 3D points cloud can be dr
     
     The final result is shown below.
     
-    ![Untitled](Hw2%20Camera%20Relocalization%207b7b806eb8434621a4b2eccc5c7c6a64/Untitled%3.png)
+    ![Untitled](Hw2%20Camera%20Relocalization%207b7b806eb8434621a4b2eccc5c7c6a64/Untitled3.png)
     
 
 # Problem2: Augmented Reality
 
 The cube is placed on the rooftop of the NTU gate, which is shown below.
 
-![Untitled](Hw2%20Camera%20Relocalization%207b7b806eb8434621a4b2eccc5c7c6a64/Untitled%4.png)
+![Untitled](Hw2%20Camera%20Relocalization%207b7b806eb8434621a4b2eccc5c7c6a64/Untitled4.png)
 
 For the painter’s algorithm, I created a class `Point` which stored the information of the points such as, world coordinate, camera coordinate, image coordinate, and point color. Then, sorting all the points by their z of the camera coordinate in reverse order. Last, paint the point with the largest z coordinate first. 
 
