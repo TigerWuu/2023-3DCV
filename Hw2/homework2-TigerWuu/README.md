@@ -83,20 +83,20 @@ The camera poses of 130 validation images and NTU gate 3D points cloud can be dr
 1. **Drawing the camera translation trajectory.**
     
     The result is shown below (Blue: estimated, Magenta: ground truth)
-    
-    ![Untitled](Hw2%20Camera%20Relocalization%207b7b806eb8434621a4b2eccc5c7c6a64/Untitled1.png)
+
+![Untitled](Hw2%20Camera%20Relocalization%207b7b806eb8434621a4b2eccc5c7c6a64/Untitled1.png)
     
     Because the order of the **“IMAGE_ID”** does not match the time sequence of the camera motion, I use `natsort` to obtain the correct order of frames first.
     
-2. **Drawing the camera rotation pyramid.**
+3. **Drawing the camera rotation pyramid.**
     
     The result is shown below
     
-    ![Untitled](Hw2%20Camera%20Relocalization%207b7b806eb8434621a4b2eccc5c7c6a64/Untitled2.png)
+![Untitled](Hw2%20Camera%20Relocalization%207b7b806eb8434621a4b2eccc5c7c6a64/Untitled2.png)
     
     Here each camera pose can be seen as a quadrangular pyramid. 
     
-    ![393946671_703831658294716_5144433833195113086_n.jpg](Hw2%20Camera%20Relocalization%207b7b806eb8434621a4b2eccc5c7c6a64/393946671_703831658294716_5144433833195113086_n.jpg)
+![393946671_703831658294716_5144433833195113086_n.jpg](Hw2%20Camera%20Relocalization%207b7b806eb8434621a4b2eccc5c7c6a64/393946671_703831658294716_5144433833195113086_n.jpg)
     
     the camera intrinsic matrix is 
     
@@ -127,7 +127,7 @@ The camera poses of 130 validation images and NTU gate 3D points cloud can be dr
     \end{align*}
     $$
     
-3. **Pasting the camera image on the camera plane.**
+4. **Pasting the camera image on the camera plane.**
     
     The final result is shown below.
     
