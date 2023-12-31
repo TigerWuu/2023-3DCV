@@ -20,30 +20,22 @@ K = \begin{bmatrix}
 f_x & s & o_x \\
 0 & f_y & o_y \\
 0 & 0 & 1
-\end{bmatrix}
-=
-\begin{bmatrix}
+\end{bmatrix} = \begin{bmatrix}
 519.78 & 0 & 314 \\
 0 & 519.85 & 177 \\
 0 & 0 & 1
 \end{bmatrix}
- 
 \end{align*}
-
 $$
 
 $$
 \begin{align*}
 D = \begin{bmatrix}
 k_1 & k_2 & p_1 & p_2 & k_3 
-\end{bmatrix}
-=
-\begin{bmatrix}
+\end{bmatrix}=\begin{bmatrix}
 0.129& -0.972 & -0.00314 & -0.000135 & 1.85
 \end{bmatrix}
- 
 \end{align*}
-
 $$
 
 the 20 camera poses to the chessboard are shown in the 3D visualization below.
