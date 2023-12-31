@@ -105,8 +105,8 @@
     - **iteration**: **2000,** the maximum number of RANSAC iterations.
     
     On the other hand, RANSAC is very sensitive to the parameter (threshold, iteration). In my experiment, the error will explode sometimes. Here comes an example,
-    
-    ![Untitled](Homework%201%20bb0c1719bb514844ae219027048e1583/Untitled6.png)
+
+![Untitled](Homework%201%20bb0c1719bb514844ae219027048e1583/Untitled6.png)
     
 
 # Problem2: Document rectification
@@ -127,7 +127,7 @@
 
 1. Select **four corners** (left-top corner first) from the input image **clockwise** by modifying the example code `mouse_click_example.py` . 
     
-    ![4_corners.png](Homework%201%20bb0c1719bb514844ae219027048e1583/4_corners.png)
+![4_corners.png](Homework%201%20bb0c1719bb514844ae219027048e1583/4_corners.png)
     
 2. the rectified image size is not the same size as the input one due to the following reasons
     1. **Warping time:** the resolution of the input image is 3024x4032 (captured by a 12 million-pixel camera), it will take too much time in the warping procedure.
