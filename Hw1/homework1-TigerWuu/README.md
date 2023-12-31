@@ -27,7 +27,7 @@
         
         - Error compares (DLT vs. NDLT vs. NDLT+RANSAC)
             
-            ![Untitled](Homework%201%20bb0c1719bb514844ae219027048e1583/Untitled%201.png)
+            ![Untitled](Homework%201%20bb0c1719bb514844ae219027048e1583/Untitled1.png)
             
 - k = 8
     - 1-0.png → 1-1.png
@@ -36,7 +36,7 @@
         
         - Error compares (DLT vs. NDLT vs. NDLT+RANSAC)
             
-            ![Untitled](Homework%201%20bb0c1719bb514844ae219027048e1583/Untitled%202.png)
+            ![Untitled](Homework%201%20bb0c1719bb514844ae219027048e1583/Untitled2.png)
             
     - 1-0.png → 1-2.png
         
@@ -44,7 +44,7 @@
         
         - Error compares (DLT vs. NDLT vs. NDLT+RANSAC)
             
-            ![Untitled](Homework%201%20bb0c1719bb514844ae219027048e1583/Untitled%203.png)
+            ![Untitled](Homework%201%20bb0c1719bb514844ae219027048e1583/Untitled3.png)
             
 - k = 20
     - 1-0.png → 1-1.png
@@ -53,7 +53,7 @@
         
         - Error compares (DLT vs. NDLT vs. NDLT+RANSAC)
             
-            ![Untitled](Homework%201%20bb0c1719bb514844ae219027048e1583/Untitled%204.png)
+            ![Untitled](Homework%201%20bb0c1719bb514844ae219027048e1583/Untitled4.png)
             
     - 1-0.png → 1-2.png
         
@@ -61,7 +61,7 @@
         
         - Error compares (DLT vs. NDLT vs. NDLT+RANSAC)
             
-            ![Untitled](Homework%201%20bb0c1719bb514844ae219027048e1583/Untitled%205.png)
+            ![Untitled](Homework%201%20bb0c1719bb514844ae219027048e1583/Untitled5.png)
             
 
 ## Procedure
@@ -106,7 +106,7 @@
     
     On the other hand, RANSAC is very sensitive to the parameter (threshold, iteration). In my experiment, the error will explode sometimes. Here comes an example,
     
-    ![Untitled](Homework%201%20bb0c1719bb514844ae219027048e1583/Untitled%206.png)
+    ![Untitled](Homework%201%20bb0c1719bb514844ae219027048e1583/Untitled6.png)
     
 
 # Problem2: Document rectification
